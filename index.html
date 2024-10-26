@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new web page</title>
+    <link rel="stylesheet" href="./public.css">
+    <style>
+        h1 {
+            color: rgb(239, 14, 14);
+            font-size: 30px
+        }
+
+        h2 {
+            color: rgb(40, 175, 220);
+            font-size: 30px
+        }
+
+        h3 {
+            color: rgb(13, 241, 150);
+            font-size: 30px
+        }
+
+        .蓝色加宽 {
+            color: rgb(2, 141, 255);
+            font-weight: 700;
+            font-size: 30px;
+            font-family: "宋体";
+        }
+
+
+
+        #红色加宽斜体 {
+            color: red;
+            font-weight: 700;
+            font-size: 30px;
+            font-style: italic;
+        }
+
+
+        .juzhong {
+            text-align: center;
+        }
+
+        td,
+        em {
+            color: coral;
+            font-size: 20px;
+        }
+
+        table,
+        td {
+            border: 3px solid rgb(18, 87, 148);
+            border-collapse: collapse;
+            width: 700px;
+            height: 100px;
+            text-align: center;
+            vertical-align: center;
+            background-color: rgb(135, 189, 234);
+            color: crimson;
+        }
+
+        .h {
+            text-align:center;
+            text-decoration:underline;
+            text-transform:capitalize;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="left">一级标题</h1>
+    <h2 align="center">二级标题</h2>
+    <h3 align="right">二级标题</h3>
+    <p style="color:rgb(239, 14, 14)">段落标签</p>
+    <p style="color:rgb(40, 175, 220)">my new<br>web page</p>
+    <p style="color:rgb(13, 241, 150)" class="h">前端</p>
+
+    <a href="./Welcome.html" class="h"> first webage </a>
+    <div>
+        <a href="https://www.bilibili.com/">bilibili</a>
+        <hr color="red" width="500px" size="2px" align="left">
+        <hr color="blue" width="600px" size="3px" align="center">
+        <hr color="green" width="700px" size="4px" align="right">
+        <img src="周防有希.jpg" alt="\周防有希" width="300px" height="300px" title="绝对路径">
+        <img src="李白三星.jpg" alt="李白三星" width="300px" height="300px" title="相对路径(子级)">
+        <img src="李白三星.jpg" alt="李白三星" width="300px" height="300px" title="相对路径(子级)">
+        <img src="1.png" alt="动漫男主" width="300px" height="300px" title="相对路径（同级）">
+        <img src="1.png" alt="动漫男主" width="250px" height="300px" title="相对路径（同级）">
+        <a href="https://www.bilibili.com/"><img src="https://img2017.manmanbuy.com/Thumb_2022050011004159932.png"
+                width="550px" height="550px" alt=""></a>
+        <img src="白面具.jpg" alt="白面具" width="600" height="550px" title="动漫男主绝对路径">
+        <img src="https://mobile-img-baofun.zhhainiao.com/pcwallpaper_ugc_mobile/preview/c3c5bdfdcfae2f8825e6d9df7b130215_preview_mid.jpg"
+            height="550px" alt="高达巴巴托斯" width="300px" title="网络路径">
+    </div>
+    <br>
+    <em>着重文字</em>
+    <b>粗体文本</b>
+    <i>斜体字</i>
+    <strong>加重语气</strong>
+    <del>删除字</del>
+    <span>元素没有特殊含义</span>
+    <i><b>嵌套</b>使用的例句</i><br>
+    <span>有序数列</span>
+    <ol>
+        <li>雪代巴</li>
+        <li>周防有希</li>
+        <li>野原琳</li>
+    </ol>
+    <ol type="I">
+        <li>雪代巴</li>
+        <li>周防有希</li>
+        <li>野原琳</li>
+    </ol>
+    <ol type="A">
+        <li>雪代巴</li>
+        <li>周防有希</li>
+        <li>野原琳</li>
+    </ol>
+    <span>
+        有序数列的嵌套
+    </span>
+    <ol type="i">
+        <li>女角色<ol>
+                <li>雪代巴</li>
+                <li>周防有希</li>
+                <li>野原琳</li>
+            </ol>
+        </li>
+        <li>
+            男角色<ol>
+                <li>绯村剑心</li>
+                <li>三日月·奥格斯</li>
+                <li>宇智波带土</li>
+            </ol>
+        </li>
+    </ol>
+    <span>
+        无序列表
+    </span>
+    <ul>
+        <li class="蓝色加宽">花</li>
+        <li class="蓝色加宽">太阳</li>
+        <li class="蓝色加宽">笔</li>
+    </ul>
+    <ul type="circle">
+        <li id="红色加宽斜体">花</li>
+        <li>太阳</li>
+        <li">笔</li>
+    </ul>
+    <ul type="square">
+        <li>花</li>
+        <li>太阳</li>
+        <li>笔</li>
+    </ul>
+    <span>
+        无序列表的嵌套略
+    </span>
+    <br>
+    <span>表格合并6和7:colspan//水平合并留左删右</span>
+    <br>
+    <span>表格合并15和20:rowspan//垂直合并留上删下</span>
+    <table>
+        <tr>
+            <td>雪代巴</td>
+            <td>周防有希</td>
+            <td>野原琳</td>
+        </tr>
+        <tr>
+            <td>绯村剑心</td>
+            <td>三日月·奥格斯</td>
+            <td>宇智波带土</td>
+        </tr>
+    </table>
+    <br>
+    <table align="center">
+        <tr>
+            <td>单元格1</td>
+            <td>单元格2</td>
+            <td>单元格3</td>
+            <td>单元格4</td>
+            <td>单元格5</td>
+        </tr>
+        <tr>
+            <td colspan="2">单元格6,7</td>
+            <td>单元格8</td>
+            <td>单元格9</td>
+            <td>单元格10</td>
+        </tr>
+        <tr>
+            <td>单元格11</td>
+            <td>单元格12</td>
+            <td>单元格13</td>
+            <td>单元格14</td>
+            <td rowspan="2">单元格15,20</td>
+        </tr>
+        <tr>
+            <td>单元格16</td>
+            <td colspan="2" rowspan="2">单元格17</td>
+            <td>单元格19</td>
+        </tr>
+        <tr>
+            <td>单元格21</td>
+            <td>单元格24</td>
+            <td>单元格25</td>
+        </tr>
+    </table>
+    <form action="ur1" name="表单" align="center">
+        <b>用户名：</b>
+        <input type="text">
+        <br>
+        <b>密码：</b>
+        <input type="password">
+        <input type="submit">
+        <input type="submit" value="登录">
+        <br>
+        <input type="text">
+        <button>搜索</button>
+    </form>
+    <div id="header"> </div>
+    <div id="nav"> </div>
+    <div id="article">
+        <div id="section"> </div>
+    </div>
+    <div id="slider"> </div>
+    <div id="footer"> </div>
+    <header>谁都比你低一个分贝</header>
+    <nav></nav>
+    <article>
+        <section></section>
+    </article>
+    <aside></aside>
+    <footer></footer>
+
+
+</body>
+
+</html>
